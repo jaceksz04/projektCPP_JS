@@ -1,0 +1,6 @@
+id,brand,model,year,mileage,price,description,imagePath
+1,Toyota,Corolla,2019,45000,72000,"Jeden wlasciciel, stan bardzo dobry.",assets/images/corolla.jpg
+2,Volkswagen,Golf,2017,98000,58000,"Serwisowany w ASO, nowe opony.",assets/images/golf.jpg
+3,BMW,3 Series,2020,32000,125000,"Wersja M-Sport, skorzana tapicerka.",assets/images/bmw3.jpg
+4,Ford,Focus,2015,145000,34000,"Ekonomiczny, bogate wyposazenie.",
+5,Audi,A4,2018,77000,95000,"Quattro, LED, nawigacja.",

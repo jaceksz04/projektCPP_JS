@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="CarComis" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/CarComis" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-std=c++17" />
+					<Add option="-g" />
+					<Add directory="C:/Users/jacek/Downloads/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/include" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-graphics-d" />
+					<Add library="sfml-window-d" />
+					<Add library="sfml-system-d" />
+					<Add directory="C:/Users/jacek/Downloads/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/CarComis" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=c++17" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-graphics" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add directory="C:/Users/jacek/Downloads/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/include" />
+			<Add directory="C:/Users/jacek/Desktop/CarComis/include" />
+		</Compiler>
+		<Linker>
+			<Add directory="C:/Users/jacek/Downloads/SFML-2.6.1-windows-gcc-13.1.0-mingw-64-bit/SFML-2.6.1/lib" />
+		</Linker>
+		<Unit filename="include/AddAdState.h" />
+		<Unit filename="include/AppContext.h" />
+		<Unit filename="include/Car.h" />
+		<Unit filename="include/CarInventory.h" />
+		<Unit filename="include/CarRenderer.h" />
+		<Unit filename="include/CsvCarRepository.h" />
+		<Unit filename="include/DetailState.h" />
+		<Unit filename="include/FilterStrategy.h" />
+		<Unit filename="include/GalleryState.h" />
+		<Unit filename="include/ICarRepository.h" />
+		<Unit filename="include/IState.h" />
+		<Unit filename="include/MenuState.h" />
+		<Unit filename="include/UIHelper.h" />
+		<Unit filename="include/User.h" />
+		<Unit filename="src/AddAdState.cpp" />
+		<Unit filename="src/CarInventory.cpp" />
+		<Unit filename="src/CarRenderer.cpp" />
+		<Unit filename="src/CsvCarRepository.cpp" />
+		<Unit filename="src/DetailState.cpp" />
+		<Unit filename="src/GalleryState.cpp" />
+		<Unit filename="src/MenuState.cpp" />
+		<Unit filename="src/main.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
